@@ -49,10 +49,10 @@
 
 <div class="row-fluid">
   <div class="span12">
-   <font color="black"> <p> Welcome to my simple site where I am sharing my different projects with the world. My name is Raquel Carrillo (the weirdo in the picture is me). 
+   <font color="black"> <p> Welcome to my simple site, where I'm going to share my different projects with the world. My name is Raquel Carrillo (the weirdo in the picture is me). 
       I am a junior at   <a class="brand" href="https://www.dsstpublicschools.org/college-view-high-school">DSST: College View High School</a>. I am currently enrolled in 4 AP classes: AP Biology, AP Spanish 
-      Language, AP United States History, and AP Calc AB. I love being able to learn more about the world and being able to learn
-      from others. Besides school, on my free time I enjoy volunteering at Autumn Heights, where I spend time talking with the residents.
+      Language, AP United States History, and AP Calc AB. I love being able to learn more about the world and learning
+      from others. On my free time I enjoy volunteering at Autumn Heights, where I spend time talking with the residents.
     Aside from volunteering most of my time afterschool is spent doing homework and taking care of my little sister, Sofia. </p>
      <img src="Profile Pic.jpg">
 <div class="page-header">
@@ -67,6 +67,75 @@
   <li><a href="pongproject.html"> Pong Project</a></li>
   <li><a href="tinkercadschoolbus.html">3D Tinkercad School Bus</a></li>
 </ul>
+  
+  
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="raquelcv.github.io">Home</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Projects </a>
+    <div class="dropdown-content">
+  <a href="quizproject.html">Personality Quiz</a>
+  <a href="tinkercadhouse.html"> 3D Tinkercad House</a>
+  <a href="pongproject.html"> Pong Project</a>
+  <a href="tinkercadschoolbus.html">3D Tinkercad School Bus</a>
+    </div>
+  </li>
+</ul>
+
+  
   </body>
 </html>

@@ -30,17 +30,88 @@
   </head>
 
   <body>
-    <div class="navbar">
-      <div class="navbar-inner">
-        <div class="container-narrow">
-          <a class="brand" href="https://RaquelCV.github.io/">Raquel's Site</a>
-        </div>
-      </div>
+      <head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  position: fixed;
+  overflow: hidden;
+  background-color: gray;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 190px;
+  text-decoration: none;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 190px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #ff4848 ;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 90px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: Black;
+  padding: 12px 140px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+  <body>
+
+<div class="navbar">
+  <a href="https://raquelcv.github.io/">Home</a>
+<a href="Resume PDF.pdf">Resume</a>
+  <div class="dropdown">
+    <button class="dropbtn">Projects 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="quizproject.html">Personality Quiz</a>
+      <a href="tinkercadhouse.html">Tinkercad House</a>
+      <a href="pongproject.html">Pong Project</a>
+      <a href="tinkercadschoolbus.html">Tinkercad School Bus</a>
     </div>
+  </div> 
+</div>
+
 
     <div class="container-narrow">
 
-      <div class="content">
+      <div class="content"> 
+        
         
 
 <div class="page-header">
